@@ -178,12 +178,86 @@ updateRecords(recordCollection, 5439, "artist", "ABBA");
 //   console.log(arr);
 // }
 
-// countdown(5);
-function removeFirstTwo(list) {
-  const [a, b] = [...list];
-  return [a, b];
-}
+// // countdown(5);
+// function removeFirstTwo(list) {
+//   const [a, b,...rest] = [list];
+//   return [a, b];
+// }
 
-const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const sourceWithoutFirstTwo = removeFirstTwo(source);
-console.log(sourceWithoutFirstTwo);
+// const source = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const sourceWithoutFirstTwo = removeFirstTwo(source);
+// console.log(sourceWithoutFirstTwo);
+// const result = {
+//   success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//   failure: ["no-var", "var-on-top", "linebreak"],
+//   skipped: ["no-extra-semi", "no-dup-keys"],
+// };
+// function makeList(arr) {
+//   // console.log(arr);
+
+// Only change code below this line
+// const failureItems = [
+//   `${`<li class="text-warning"> ${arr[0]} </li>`} ${`<li class="text-warning"> ${arr[1]} </li>`} ${`<li class="text-warning"> ${arr[2]} </li>`} `,
+// ];
+// Only change code above this line
+
+//   return failureItems;
+// }
+
+// const failuresList = makeList(result.failure);
+// console.log(failuresList);
+// Only change code below this line
+// class Thermostat {
+//   constructor(temp) {
+//     this.temp = temp;
+//   }
+//   get temperature() {
+//     return this.temp;
+//   }
+//   set temperature(temperature) {
+//     return (this.temp = temperature);
+//   }
+// }
+// // Only change code above this line
+
+// const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+// let temp = thermos.temperature; // 24.44 in Celsius
+
+// thermos.temperature = 26;
+// temp = thermos.temperature; // 26 in Celsius
+
+// let extractStr = "Extract the word 'coding' from this string.";
+// let codingRegex = /rom/i; // Change this line
+// let result = codingRegex.test(extractStr); // Change this line
+// console.log(result);
+
+// let quoteSample = "Blueberry 3.141592653s are delicious.";
+// let myRegex = /[2-6h-s]/gi; // Change this line
+// let result = quoteSample.match(myRegex); // Change this line
+// console.log(result);
+
+// For example, /[^aeiou]/gi matches all characters that are not a vowel. Note that characters like ., !, [, @, / and white space are matched - the negated vowel character set only excludes the vowel characters.
+// let quoteSample = "3 blind mice.";
+// let myRegex = /[^aeiou[0-9]/gi; // Change this line
+// let result = quoteSample.match(myRegex); // Change this line
+// console.log(result);
+
+// let difficultSpelling = "Mippippssippi";
+// let myRegex = /p+/g; // Change this line
+// let result = difficultSpelling.match(myRegex);
+// console.log(result);
+// const chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+// // Only change code below this line
+// let chewieRegex = /A*/; // Change this line
+// // Only change code above this line
+
+// let result = chewieQuote.match(chewieRegex);
+// console.log(result);
+let soccerWord = "gooooooooal!";
+let gPhrase = "gut feeling";
+let oPhrase = "over the moon";
+let goRegex = /go*/;
+// soccerWord.match(goRegex);
+// gPhrase.match(goRegex);
+const result = soccerWord.match(goRegex);
+console.log(result);
